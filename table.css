@@ -1,0 +1,82 @@
+/* Body styles */
+body {
+  background: linear-gradient(45deg, #3498db, #e74c3c); /* Gradient background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form styles */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+button {
+  width: 45%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Different background colors for adjacent buttons */
+button:nth-child(even) {
+  background-color: #27ae60; /* Green color */
+  color: #fff;
+}
+
+button:nth-child(odd) {
+  background-color: #e67e22; /* Orange color */
+  color: #fff;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #2c3e50; /* Darker background on hover */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #34495e; /* Dark blue color */
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: linear-gradient(45deg, #3498db, #e74c3c); /* Light green color for even rows */
+}
+
+tr:nth-child(odd):hover,
+tr:hover {
+  background-color: #bdc3c7; /* Slightly darker gray on hover for odd rows */
+}
