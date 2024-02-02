@@ -40,7 +40,6 @@ export function Table() {
     }
     const handleDelete = (id) => {
         axios.delete('http://localhost:3000/fruits/' + id)
-            // Perform any necessary state updates or UI changes here
         .catch(err => console.log(err));
     }
     return ( 
